@@ -11,6 +11,7 @@ use std::str::bp;
 
 fn testnet()
 let network = bitcoin::network::constants::Network::Testnet;
+let network = bitcoin::network::constants::Network::Mainnet;
 / Example usage of the imported libraries
     let mut rng = OsRng::default();
     let psbt = bitcoin::psbt::tapre::new();
